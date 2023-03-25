@@ -1,0 +1,73 @@
+{
+  "description": "Death stranding mod",
+  "developer": {
+    "name": "Dr.RedBird"
+  },
+  "icons": {
+    "2019": "icon/DS.png"
+  },
+  "manifest_version": 3,
+  "mod": {
+    "license": "license.txt",
+    "payload": {
+      "background_music": [
+        "music/BB's Theme.mp3"
+      ],
+      /* v2.0
+        "background_music":{
+        "dark":["music/Ghost.mp3"],
+        "light":["music/LowRoar.mp3"]
+        },
+        */
+      "browser_sounds": {
+        "TAB_CLOSE": [
+          "sound/Give Me Back My BB.mp3"
+        ],
+        "TAB_INSERT": [
+          "sound/BB.mp3"
+        ]
+      },
+      "theme": {
+        "dark": {
+          "gx_accent": {
+            "h": 7,
+            "s": 86,
+            "l": 44
+          },
+          "gx_secondary_base": {
+            "h": 10,
+            "s": 100,
+            "l": 41
+          }
+        },
+        "light": {
+          "gx_accent": {
+            "h": 8,
+            "s": 88,
+            "l": 43
+          },
+          "gx_secondary_base": {
+            "h": 209,
+            "s": 41,
+            "l": 64
+          }
+        }
+      },
+      "wallpaper": {
+        "dark": {
+          "image": "wallpaper/SamWakeUp.png",
+          "text_color": "#FFFFFF",
+          "text_shadow": "#757575"
+        },
+        "light": {
+          "image": "wallpaper/BTL.png",
+          "text_color": "#FFFFFF",
+          "text_shadow": "#0B000E"
+        }
+      }
+    },
+    "schema_version": 1
+  },
+  "name": "Death Stranding",
+  "version": "1.0"
+}
